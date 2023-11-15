@@ -7,6 +7,7 @@
           style="flex: 1"
         ></div>
         <div>
+
           <el-table
             :data="tableData"
             border
