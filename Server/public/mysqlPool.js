@@ -1,6 +1,6 @@
 //连接池
 var mysql = require("mysql");
-var pool = mysql.createPool({ host: 'localhost', user: 'root', password: 'RENYU111', database: 'dengruo', port: 3306 });
+var pool = mysql.createPool({ host: 'localhost', user: 'root', password: 'RENYU111', database: 'Vueex', port: 3306 });
 
 
 const query = function (sql) {
